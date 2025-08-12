@@ -1,6 +1,6 @@
 # Como criar uma Máquina Virtual no Azure
 
-Este guia passo a passo explica de forma simples como criar uma máquina virtual (VM) no Azure.
+Este guia passo a passo explica de forma simples como criar uma máquina virtual (VM) no Azure. Neste exemplo, criaremos uma máquina com o sistema operacional Windows.
 
 ---
 
@@ -37,6 +37,7 @@ Este guia passo a passo explica de forma simples como criar uma máquina virtual
 ### _03.4 Configuração de Tamanho, nesta tela detalha as configurações de tamanhos e preços disponíveis_
 ![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_passo%203_tamanhos%20vm_precos.JPG)
 
+
 ---
 
 ## 4. Configure as opções de autenticação
@@ -50,7 +51,7 @@ Este guia passo a passo explica de forma simples como criar uma máquina virtual
 ---
 ## 5. Configure o Tipo de Disco do SO
 - **Método de login**:
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_disco_passo%201JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_disco_passo%201.JPG)
 
 ---
 
@@ -61,7 +62,7 @@ Este guia passo a passo explica de forma simples como criar uma máquina virtual
   - Para Windows, geralmente habilite **RDP (3389)**.
   - Para Linux, habilite **SSH (22)**.
 ### _06. Configurar Opções Rede Criar Endereço IP Público_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_rede%20passo%201.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_rede_passo%201.JPG)
 
 ---
 
@@ -70,11 +71,11 @@ Este guia passo a passo explica de forma simples como criar uma máquina virtual
 - **Monitoramento**: mantenha as opções padrão.
 - **Marcas**: você pode colocar tag para localizar os recursos com facilidade.
 ### _07.1 Configurar Gerenciamento_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_gerenciamento%20passo%201.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_gerenciamento_passo%201.JPG)
 ### _07.2 Configurar Monitoramento_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_monitoramento%20passo%201.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_monitoramento_passo%201.JPG)
 ### _07.3 Configurar Marcas_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_marcas%20passo%201.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_marcas_passo%201.JPG)
 
 ---
 
@@ -82,11 +83,11 @@ Este guia passo a passo explica de forma simples como criar uma máquina virtual
 - Revise todas as configurações.
 - Clique em **"Criar"** para iniciar a implantação da VM.
 ### _08.1 Revisar (1)_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_revisar%20passo%201.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_revisar_passo%201.JPG)
 ### _08.2 Revisar (2)_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_revisar%20passo%202.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_revisar_passo%202.JPG)
 ### _08.3 Revisar (3)_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_revisar%20passo%203.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_revisar_passo%203.JPG)
 
 ---
 
@@ -94,13 +95,13 @@ Este guia passo a passo explica de forma simples como criar uma máquina virtual
 - Aguarde alguns minutos enquanto o Azure cria sua máquina virtual.
 - Quando finalizar, você verá uma mensagem de sucesso.
 ### _09.1 Detalhes da Implantação (1)_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar%20passo%201.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar_passo%201.JPG)
 ### _09.2 Detalhes da Implantação (2)_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar%20passo%202.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar_passo%202.JPG)
 ### _09.2 Detalhes da Implantação (3)_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar%20passo%203.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar_passo%203.JPG)
 ### _09.4 Detalhes da Implantação (4)_
-![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar%20passo%204.JPG)
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar_passo%204.JPG)
 ### _09. Impltantação finalizada_
 ![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_criar_finalizado.JPG)
 
