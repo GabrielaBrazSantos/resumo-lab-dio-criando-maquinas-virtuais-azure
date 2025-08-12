@@ -7,15 +7,16 @@ Este guia passo a passo explica de forma simples como criar uma máquina virtual
 ## 1. Acesse o Portal do Azure
 - Vá até o site [portal.azure.com](https://portal.azure.com).
 - Faça login com sua conta Microsoft ou de estudante.
-  !(images/pagina inicial.jpg)
-_01. página inicial do Azure_
+### _01. página inicial do Azure_
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/pagina%20inicial.JPG)
+
 ---
 
 ## 2. Crie um novo recurso
 - Clique em **"Criar um recurso"** no menu lateral esquerdo.
 - Selecione **"Máquina Virtual"** na lista de opções.
-- !(images/criar maquina_passo 1.jpg)
-_02. criar maquina_
+### _02. criar maquina_
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_passo%201.JPG)
 
 ---
 
@@ -27,10 +28,11 @@ _02. criar maquina_
 - **Imagem**: selecione o sistema operacional desejado (exemplo: Windows Server, Ubuntu, etc.).
 - **Tamanho**: escolha o tamanho da VM, que define recursos como CPU e memória (para iniciantes, opções padrão funcionam bem).
 
-- !(images/criar maquina_passo 2.jpg)
-_02. Configuração_
-- !(images/criar maquina_passo 3.jpg)
-_03. Configuração_
+### _03.1 Configuração_
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_passo%202.JPG)
+### _03.2 Configuração_
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_passo%203.JPG)
+
 ---
 
 ## 4. Configure as opções de autenticação
@@ -38,8 +40,9 @@ _03. Configuração_
   - Senha: crie uma senha forte.
   - Chave SSH (opcional): para conexões mais seguras, especialmente no Linux.
 - **Nome de usuário**: crie um usuário administrador.
-- !(images/criar maquina_passo 4.jpg)
-_04. Configurar Usuário e Senha_
+### _04. Configurar Usuário e Senha_
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_passo%204.JPG)
+
 ---
 
 ## 5. Configure as opções de rede
@@ -48,8 +51,8 @@ _04. Configurar Usuário e Senha_
 - **Portas de entrada**:
   - Para Windows, geralmente habilite **RDP (3389)**.
   - Para Linux, habilite **SSH (22)**.
-- !(images/criar maquina_rede_passo 1.jpg)
-_05. Configurar Opções Rede_
+### _05. Configurar Opções Rede_
+![.](https://raw.githubusercontent.com/GabrielaBrazSantos/resumo-lab-dio-criando-maquinas-virtuais-azure/refs/heads/main/images/criar%20maquina_rede%20passo%201.JPG)
 ---
 
 ## 6. Revisar e criar
